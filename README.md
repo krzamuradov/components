@@ -1,0 +1,2 @@
+# components
+Vue component templates
