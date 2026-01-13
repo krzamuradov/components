@@ -185,6 +185,30 @@
 </style>
 
 ```
+## Компонент CARD
+```
+<script setup></script>
+
+<template>
+    <div class="card-root shadow-sm p-2 rounded-3 mb-1" v-bind="$attrs">
+        <slot />
+    </div>
+</template>
+
+<style scoped>
+    /* .card-root {
+        transition:
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+        cursor: pointer;
+    }
+
+    .card-root:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    } */
+</style>
+```
 ## Компонент pdf-vue3
 ```
 <script setup>
